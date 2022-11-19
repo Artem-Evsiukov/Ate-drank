@@ -27,7 +27,7 @@ exports["default"] = void 0;
 var swiperSlider = function () {
   var swiper = new Swiper('.mySwiper', {
     slidesPerView: 1,
-    spaceBetween: 0,
+    spaceBetween: 20,
     autoplay: {
       delay: 8000
     },
@@ -44,6 +44,32 @@ var swiperSlider = function () {
       prevEl: '.swiper-button-prev'
     }
   });
+  var mySwiperMobail = new Swiper('.mySwiperMobail', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 8000
+    },
+    speed: 3500,
+    keyboard: {
+      enabled: true
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2
+      }
+    }
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true,
+    // },
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
+  });
+
   var init = function init() {};
   return {
     init: init
