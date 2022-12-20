@@ -29,9 +29,9 @@ var swiperSlider = function () {
     slidesPerView: 1,
     spaceBetween: 20,
     autoplay: {
-      delay: 8000
+      delay: 10000
     },
-    speed: 3500,
+    speed: 6500,
     keyboard: {
       enabled: true
     },
