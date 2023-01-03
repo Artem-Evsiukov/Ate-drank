@@ -479,7 +479,7 @@ input:focus::placeholder {
 	border-top: none;
 	border-bottom: 4px solid #7f0000;
 	padding: 10px 20px 20px;
-	min-height: 422px;
+	min-height: 530px;
 }
 .intro-header__col,
 .intro-header__wrap {
