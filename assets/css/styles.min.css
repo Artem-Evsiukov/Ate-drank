@@ -745,10 +745,10 @@ input:focus::placeholder {
 }
 .intro-footer--two .intro-footer__text {
 	color: #d8db25;
-    margin: 0;
+	margin: 0;
 }
-.intro-footer--two .intro-footer__subtext{
-    margin: 0;
+.intro-footer--two .intro-footer__subtext {
+	margin: 0;
 }
 .intro-footer__col {
 	display: flex;
@@ -761,7 +761,7 @@ input:focus::placeholder {
 }
 .intro-footer__col .intro__decor {
 	top: -25px;
-	right: 270px;
+	right: 285px;
 }
 
 .intro-footer__wrap {
