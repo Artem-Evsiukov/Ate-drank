@@ -530,7 +530,7 @@ input:focus::placeholder {
 	border-top: none;
 	border-bottom: 4px solid #7f0000;
 	padding: 10px 20px 20px;
-	min-height: 720px;
+	min-height: 704px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -678,7 +678,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 670px;
+	height: 654px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -733,7 +733,22 @@ input:focus::placeholder {
 	border-bottom: 4px solid #7f0000;
 	padding: 20px;
 	justify-content: space-around;
-	height: 670px;
+	height: 394px;
+}
+.intro-footer-wrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.intro-footer--two .intro-footer__wrap {
+	height: 210px;
+}
+.intro-footer--two .intro-footer__text {
+	color: #d8db25;
+    margin: 0;
+}
+.intro-footer--two .intro-footer__subtext{
+    margin: 0;
 }
 .intro-footer__col {
 	display: flex;
@@ -742,7 +757,13 @@ input:focus::placeholder {
 	width: 100%;
 	border-bottom: 4px dashed #7f0000;
 	padding-bottom: 10px;
+	position: relative;
 }
+.intro-footer__col .intro__decor {
+	top: -25px;
+	right: 270px;
+}
+
 .intro-footer__wrap {
 	display: flex;
 	align-items: center;
