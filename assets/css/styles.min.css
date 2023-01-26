@@ -941,7 +941,7 @@ input:focus::placeholder {
 }
 .intro-header__wrap--combo .intro__text{
     font-size: 15px;
-    max-width: 400px;
+    max-width: 380px;
 }
 
 .intro-header__wrap--combo .intro__decor {
