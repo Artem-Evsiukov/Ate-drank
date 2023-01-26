@@ -530,7 +530,7 @@ input:focus::placeholder {
 	border-top: none;
 	border-bottom: 4px solid #7f0000;
 	padding: 0 20px ;
-	min-height: 730px;
+	min-height: 688px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -678,7 +678,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 464px;
+	height: 423px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -734,7 +734,7 @@ input:focus::placeholder {
 	border-bottom: 4px solid #7f0000;
 	padding: 20px;
 	justify-content: space-around;
-	height: 441px;
+	height: 400px;
 }
 .intro-footer-wrap {
 	display: flex;
