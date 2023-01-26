@@ -948,3 +948,6 @@ input:focus::placeholder {
 	right: -3px;
     top: -23px;
 }
+.intro-header__wrap--combo .intro-header__col--set  .intro__text{
+    max-width: 409px;
+}
