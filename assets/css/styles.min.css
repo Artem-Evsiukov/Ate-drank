@@ -530,7 +530,7 @@ input:focus::placeholder {
 	border-top: none;
 	border-bottom: 4px solid #7f0000;
 	padding: 0 20px ;
-	min-height: 688px;
+	min-height: 704px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -678,7 +678,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 423px;
+	height: 439px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -955,7 +955,7 @@ input:focus::placeholder {
 }
 
 .intro-footer--beer .intro-footer__wrap{
-    height: 133px;
+    height: 150px;
 }
 
 .intro-footer--beer .intro-footer__text {
@@ -967,5 +967,6 @@ input:focus::placeholder {
 }
 .intro-footer--beer .intro__decor {
 	right: 15px;
-    top: -16px;
+    top: -8px;
+    padding: 14px;
 }
