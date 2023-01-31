@@ -549,7 +549,7 @@ input:focus::placeholder {
 	margin-top: 10px;
 }
 .intro-header__text {
-	color: #fff;
+	color: #d8db25;
 	font-size: 25px;
 	font-weight: 700;
 	text-align: center;
@@ -565,7 +565,7 @@ input:focus::placeholder {
 }
 .intro-header .intro-title {
 	width: 100%;
-	color: #d8db25;
+	color: #fff;
 	border-bottom: 4px dashed #7f0000;
 	text-transform: capitalize;
 	padding: 0;
@@ -808,7 +808,7 @@ input:focus::placeholder {
 	border-left: 4px solid #7f0000;
 	border-right: 4px solid #7f0000;
 	text-align: center;
-	color: #d8db25;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 	text-transform: capitalize;
@@ -894,7 +894,7 @@ input:focus::placeholder {
 }
 
 .intro-wrapper--three {
-	width: 100%;
+	width: 85%;
 }
 
 .intro-bar--two {
@@ -943,7 +943,7 @@ input:focus::placeholder {
 }
 .intro-header__wrap--combo .intro__text{
     font-size: 15px;
-    max-width: 365px;
+    max-width: 400px;
 }
 
 .intro-header__wrap--combo .intro__decor {
