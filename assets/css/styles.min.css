@@ -762,8 +762,9 @@ input:focus::placeholder {
 }
 .intro-footer__col .intro__decor {
 	top: 50%;
-    right: 234px;
+    right: 231px;
     transform: translateY(-64%);
+    padding: 35px;
 }
 
 .intro-footer__wrap {
