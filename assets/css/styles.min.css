@@ -477,7 +477,14 @@ input:focus::placeholder {
 	padding: 0 0 20px 0 !important;
 }
 .intro-header__wrap--two .intro-header__col {
-	padding: 20px 0 !important;
+	padding: 7px 0 !important;
+}
+
+.intro-header__wrap--two .intro-header__col{
+    position: relative;
+}
+.intro-header__wrap--two .intro-header__col .intro__decor{
+    top: -13px;
 }
 .intro-footer,
 .intro-bar {
@@ -530,7 +537,7 @@ input:focus::placeholder {
 	border-top: none;
 	border-bottom: 4px solid #7f0000;
 	padding: 0 20px ;
-	min-height: 716px;
+	min-height: 709px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -678,7 +685,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 557px;
+	height: 550px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -955,7 +962,7 @@ input:focus::placeholder {
 }
 
 .intro-footer--beer .intro-footer__wrap{
-    height: 150px;
+    height: 143px;
 }
 
 .intro-footer--beer .intro-footer__text {
