@@ -493,7 +493,7 @@ input:focus::placeholder {
 .intro__decor {
 	position: absolute;
 	right: 125px;
-	top: 25px;
+	top: -10px;
 	z-index: 1;
 	clip-path: polygon(
 		50% 0%,
