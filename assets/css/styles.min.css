@@ -749,7 +749,7 @@ input:focus::placeholder {
 	width: 100%;
 }
 .intro-footer--two .intro-footer__wrap {
-	height: 100px;
+	height: 70px;
 }
 .intro-footer--two .intro-footer__text {
 	color: #d8db25;
@@ -962,7 +962,7 @@ input:focus::placeholder {
 }
 
 .intro-footer--beer .intro-footer__wrap{
-    height: 143px;
+    height: 173px;
 }
 
 .intro-footer--beer .intro-footer__text {
