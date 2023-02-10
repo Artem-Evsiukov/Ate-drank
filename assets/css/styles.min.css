@@ -977,3 +977,7 @@ input:focus::placeholder {
     top: -8px;
     padding: 14px;
 }
+
+.intro-footer-wrap--watter .intro-footer__text{
+width: 50%;
+}
