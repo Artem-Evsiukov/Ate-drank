@@ -547,6 +547,7 @@ input:focus::placeholder {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
+    position: relative;
 }
 .intro-header__col {
 	border-bottom: 4px dashed #7f0000;
@@ -685,7 +686,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 550px;
+	height: 494px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -741,7 +742,7 @@ input:focus::placeholder {
 	border-bottom: 4px solid #7f0000;
 	padding: 5px 20px;
 	justify-content: space-around;
-	height: 350px;
+	height: 355px;
 }
 .intro-footer-wrap {
 	display: flex;
@@ -905,7 +906,7 @@ input:focus::placeholder {
 }
 
 .intro-bar--two {
-	height: 120px;
+	height: 181px;
 	border: 4px solid #7f0000;
 	border-right: none;
 	border-top: none;
