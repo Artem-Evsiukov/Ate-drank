@@ -604,10 +604,13 @@ input:focus::placeholder {
 .intro__table-row + .intro__table-row {
 	margin-top: 7px;
 }
+.intro__table-row .intro__text{
+    width: 80%;
+}
 .intro__row {
 	position: relative;
 	width: 100%;
-	padding: 7.5px 0 7.5px;
+	padding: .5px 0 .5px;
 	border-right: 4px solid #7f0000;
 	align-items: center;
 	display: flex;
@@ -690,7 +693,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 650px;
+	height: 676px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -745,11 +748,11 @@ input:focus::placeholder {
 	padding: 0;
 }
 .intro-wrapper--three .intro-bar .intro-title {
-	padding: 13px 0;
+	/* padding: 13px 0; */
 	position: relative;
 }
 .intro-wrapper--three .intro-bar .intro-title .intro__decor {
-	top: -2px;
+	top: -19px;
 	right: 45px;
 }
 .intro-bar .intro__price {
