@@ -1042,6 +1042,9 @@ input:focus::placeholder {
 .alko-section .intro-footer .intro-title {
 	border-left: none;
 }
+.alko-section .intro-footer .intro-title {
+	border-right: none;
+}
 
 .alko-section .intro-bar .intro__wrapper,
 .alko-section .intro-footer__wrap {
@@ -1054,7 +1057,7 @@ input:focus::placeholder {
 	width: 100%;
 }
 .alko-section .intro-bar .intro__row {
-	padding: 15px;
+	padding: 11px;
 }
 .alko-section .intro-footer__col {
 	padding: 8px 0;
@@ -1075,6 +1078,7 @@ input:focus::placeholder {
 .alko-section .intro-footer--two .intro-title,
 .alko-section .intro-footer--beer .intro-title {
 	border-left: 4px solid #7f0000;
+    border-right: 4px solid #7f0000;
 	padding: 3.1px 0;
 }
 
