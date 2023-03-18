@@ -1022,11 +1022,11 @@ input:focus::placeholder {
 }
 .alko-section {
 	background-image: url('../images/fon.jpg');
-	height: 100vh;
+	/* height: 100vh; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding: 50px 0;
+	padding: 10px 0;
 	position: relative;
 }
 .alko-section::before {
