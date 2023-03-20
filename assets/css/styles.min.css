@@ -437,14 +437,14 @@ input:focus::placeholder {
 	position: absolute;
 }
 .intro-section {
-    background-image: url('../images/fast_bg.jpg');
+	/* background-image: url('../images/fast_bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: contain; */
 	padding: 20px 0;
-    position: relative;
+	position: relative;
 }
-.intro-section::before{
+/* .intro-section::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -452,6 +452,9 @@ input:focus::placeholder {
     left: 0 ;
     top: 0;
     background-color: rgba(0, 0, 0, 0.75);
+} */
+.intro__decor--two {
+    right: 250px !important;
 }
 .swiper {
 	width: 100%;
@@ -475,14 +478,14 @@ input:focus::placeholder {
 	text-transform: capitalize;
 	margin-bottom: 5px;
 	margin-top: 5px;
-    position: relative;
-    z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 .intro-header {
 	display: flex;
 	align-items: flex-start;
-    position: relative;
-    z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 .intro-header--two .intro-header__wrap {
 	max-width: 100%;
@@ -604,8 +607,8 @@ input:focus::placeholder {
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-    position: relative;
-    z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 .intro__wrapper {
 	display: flex;
@@ -1098,17 +1101,17 @@ input:focus::placeholder {
 .alko-section .intro-footer--two .intro-title,
 .alko-section .intro-footer--beer .intro-title {
 	border-left: 4px solid #7f0000;
-    border-right: 4px solid #7f0000;
+	border-right: 4px solid #7f0000;
 	padding: 3.1px 0;
 }
 
 .alko-section .intro__wrap .intro__decor {
-    top: 50%;
-    right: 25%;
-    transform: translateY(-50%);
-    padding: 50px;
-    font-size: 40px;
-    z-index: 3;
+	top: 50%;
+	right: 25%;
+	transform: translateY(-50%);
+	padding: 50px;
+	font-size: 40px;
+	z-index: 3;
 }
 .alko-section .intro__wrap {
 	position: relative;
