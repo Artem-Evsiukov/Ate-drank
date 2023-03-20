@@ -437,7 +437,21 @@ input:focus::placeholder {
 	position: absolute;
 }
 .intro-section {
+    background-image: url('../images/fast_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 	padding: 20px 0;
+    position: relative;
+}
+.intro-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0 ;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 .swiper {
 	width: 100%;
@@ -461,10 +475,14 @@ input:focus::placeholder {
 	text-transform: capitalize;
 	margin-bottom: 5px;
 	margin-top: 5px;
+    position: relative;
+    z-index: 2;
 }
 .intro-header {
 	display: flex;
 	align-items: flex-start;
+    position: relative;
+    z-index: 2;
 }
 .intro-header--two .intro-header__wrap {
 	max-width: 100%;
@@ -586,6 +604,8 @@ input:focus::placeholder {
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
+    position: relative;
+    z-index: 2;
 }
 .intro__wrapper {
 	display: flex;
@@ -693,7 +713,7 @@ input:focus::placeholder {
 	width: 100%;
 	border-top: none;
 	border-right: none;
-	height: 676px;
+	height: 688px;
 }
 .intro-bar .intro__row {
 	width: 100%;
@@ -765,7 +785,7 @@ input:focus::placeholder {
 	border-bottom: 4px solid #7f0000;
 	padding: 5px 20px;
 	justify-content: space-around;
-	height: 300px;
+	height: 312px;
 }
 .intro-footer-wrap {
 	display: flex;
