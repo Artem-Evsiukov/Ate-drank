@@ -454,7 +454,7 @@ input:focus::placeholder {
     background-color: rgba(0, 0, 0, 0.75);
 } */
 .intro__decor--two {
-    right: 250px !important;
+	right: 250px !important;
 }
 .swiper {
 	width: 100%;
@@ -629,6 +629,7 @@ input:focus::placeholder {
 }
 .intro__table-row .intro__text {
 	width: 80%;
+	white-space: nowrap;
 }
 .intro__row {
 	position: relative;
@@ -1080,10 +1081,10 @@ input:focus::placeholder {
 	width: 100%;
 }
 .alko-section .intro-bar .intro__row {
-	padding: 10.5px;
+	padding: 20px 10.5px;
 }
 .alko-section .intro-footer__col {
-	padding: 8px 0;
+	padding: 5px 0;
 	border-bottom: 4px solid #7f0000;
 }
 .alko-section .intro-footer__rows {
@@ -1115,4 +1116,32 @@ input:focus::placeholder {
 }
 .alko-section .intro__wrap {
 	position: relative;
+}
+.intro-alko .intro-footer__col {
+	padding: 3px 0;
+}
+
+.intro-alko {
+	border-left: 4px solid #7f0000;
+	border-right: 4px solid #7f0000;
+	border-top: none;
+	border-bottom: 4px solid #7f0000;
+}
+
+.intro-alko .intro-footer__wrap {
+	border: none;
+}
+.intro-alko .intro-title {
+	margin-top: 0;
+	text-align: center;
+	border-bottom: 4px solid #7f0000;
+}
+.intro-alko .intro-footer__text {
+	width: 22%;
+	margin: 0;
+
+}
+
+.intro-alko .intro-footer__subtext{
+    margin: 0;
 }
