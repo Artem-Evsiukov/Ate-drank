@@ -1082,10 +1082,10 @@ input:focus::placeholder {
 	width: 100%;
 }
 .alko-section .intro-bar .intro__row {
-	padding: 11px 10.5px;
+	padding: 29px 10.5px;
 }
 .alko-section .intro-footer__col {
-	padding: 4px 0;
+	padding: 19px 0;
 	border-bottom: 4px solid #7f0000;
 }
 .alko-section .intro-footer__rows {
@@ -1144,4 +1144,9 @@ input:focus::placeholder {
 
 .intro-alko .intro-footer__subtext {
 	margin: 0;
+}
+
+.intro-titleSubtext{
+	background-color: #ea1515;
+	padding:  0 1rem ;
 }
