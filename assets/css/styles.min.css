@@ -1047,14 +1047,14 @@ input:focus::placeholder {
 }
 .alko-section {
 	background-image: url('../images/fon.jpg');
-	height: 100vh; 
+	/* height: 100vh; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	padding: 10px 0;
 	position: relative;
 }
-/* .alko-section::before {
+.alko-section::before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -1062,7 +1062,7 @@ input:focus::placeholder {
 	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
 	left: 0;
-} */
+}
 .alko-section .intro-bar .intro-title,
 .alko-section .intro-footer .intro-title {
 	border-left: none;
